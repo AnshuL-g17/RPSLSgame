@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 :root{
-	--primary-color: #3BB9FF;
+	--primary-color: #00b2ce;
 	--dark-color:#4C4646;
 	--light-color:#f4f4f4;
 	--lose-color:#dc3545;
@@ -15,10 +15,10 @@
 }
 
 body{
-	font-family: 'Comic Sans MS, Comic Sans, cursive';
+	font-family:'Kaushan Script', cursive;
 	line-height: 1.6;
-	background: #fff;
-	color: #333;
+	background: #d5d5d5;
+	color: #333940;
 }
 
 .container{
@@ -30,7 +30,19 @@ body{
 }
 
 h1,h2{
-	color: var(--primary-color) ;
+	color: #00b2ce;
+    text-shadow: 1px 1px #fff;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: 400;
+}
+
+h2{
+	font-size: 35px;
+	font-weight: 300;
 }
 .restart-btn{
 	display: none;
@@ -50,12 +62,15 @@ h1,h2{
 }
 
 .header{
+	width: 100%;
+	padding: 0;
 	text-align: center;
-	margin: 1rem 0;
+	margin: 0;
+	background: #333940;
 }
 
 .header h1{
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
 
 .score{
@@ -66,7 +81,7 @@ h1,h2{
 }
 
 .score p:first-child {
-	background: var(--primary-color);
+	background: #00b2ce;
 }
 
 .score p:last-child {
@@ -86,7 +101,7 @@ h1,h2{
 }
 
 .choice:hover{
-	color: var(--primary-color);
+	color: #00b2ce;
 }
 .text-win{
 	color: var(--win-color);
